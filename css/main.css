@@ -266,6 +266,7 @@ svg path {
       animation-delay: 0.5s; }
 
 .toggle_mnu {
-  background-color: #000; }
+  background-color: #000;
+  margin: 0; }
 
 /*# sourceMappingURL=main.css.map */
