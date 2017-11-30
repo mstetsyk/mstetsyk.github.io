@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    $(".top_text h1").animated("fadeInDown", "fadeOutUp");
+    $(".top_text p").animated("fadeInUp", "fadeOutDown");
 
 	$("#portfolio_grid").mixItUp();
 

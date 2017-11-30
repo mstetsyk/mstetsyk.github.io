@@ -247,9 +247,9 @@ svg path {
     .top_wrapper .top_text p {
       margin: 0;
       text-transform: uppercase;
-      -webkit-animation-delay: 1s;
-      -moz-animation-delay: 1s;
-      animation-delay: 1s; }
+      -webkit-animation-delay: 1.5s;
+      -moz-animation-delay: 1.5s;
+      animation-delay: 1.5s; }
     .top_wrapper .top_text h1 {
       display: inline-block;
       padding: 10px 35px;
@@ -261,9 +261,9 @@ svg path {
       background-color: rgba(0, 0, 0, 0.1);
       margin-left: 20px;
       margin-right: 20px;
-      -webkit-animation-delay: 0.5s;
-      -moz-animation-delay: 0.5s;
-      animation-delay: 0.5s; }
+      -webkit-animation-delay: 1.5s;
+      -moz-animation-delay: 1.5s;
+      animation-delay: 1.5s; }
 
 .toggle_mnu {
   background-color: #000; }
