@@ -31,6 +31,7 @@ body .main_footer,
 
 .top_mnu a:hover {
   color: #FF6347; }
+
 .top_mnu a {
   letter-spacing: 4px; }
 
@@ -62,12 +63,14 @@ section h3 {
 .resume_item .year {
   background-color: #FF6347;
   color: #fff; }
+
 .resume_item .resume_description {
   letter-spacing: 1px; }
 
 .s_portfolio li {
   color: #888;
   letter-spacing: 2px; }
+
 .s_portfolio li.active {
   color: #fff;
   border-bottom: 1px solid #FF6347; }
@@ -88,17 +91,18 @@ section h3 {
 form input:focus,
 form textarea:focus {
   border: 1px solid #FF6347; }
+
 form input,
 form textarea {
   letter-spacing: 2px; }
+
 form button {
   background-color: #FF6347;
   letter-spacing: 2px; }
+
 form .form-group {
   letter-spacing: 2px;
   color: #888; }
 
 .popup_content {
   letter-spacing: 1px; }
-
-/*# sourceMappingURL=tomato.css.map */
