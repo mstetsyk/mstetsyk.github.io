@@ -60,12 +60,17 @@ section h3 {
   font-size: 16px;
   font-weight: 600; }
 
-.resume_item .year {
-  background-color: #FF6347;
-  color: #fff; }
+.resume_icon {
+  font-size: 40px;
+  margin-bottom: 35px; }
 
-.resume_item .resume_description {
-  letter-spacing: 1px; }
+.resume_item {
+  margin-bottom: 30px; }
+  .resume_item .year {
+    background-color: #FF6347;
+    color: #fff; }
+  .resume_item .resume_description {
+    letter-spacing: 1px; }
 
 .s_portfolio li {
   color: #888;
