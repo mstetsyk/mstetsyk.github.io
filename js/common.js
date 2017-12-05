@@ -56,6 +56,10 @@ $(document).ready(function () {
         ;
     });
 
+    $("input,select,textarea").not("[type=submit]").jqBootstrapValidation();
+
+    $(".top_mnu ul a").mPageScroll2id();
+
 });
 $(window).load(function () {
     $(".loader_inner").fadeOut();

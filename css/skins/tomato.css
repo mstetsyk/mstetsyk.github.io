@@ -19,7 +19,7 @@ body .main_footer,
   border-color: #FF6347; }
 
 .bg_light {
-  background-color: #fafafa; }
+  background-color: #FAFAFA; }
 
 .bg_dark {
   background-color: #222;
@@ -36,7 +36,7 @@ body .main_footer,
   letter-spacing: 4px; }
 
 .top_text p {
-  color: #fafafa;
+  color: #FAFAFA;
   letter-spacing: 5px; }
 
 .personal_header {
@@ -60,17 +60,12 @@ section h3 {
   font-size: 16px;
   font-weight: 600; }
 
-.resume_icon {
-  font-size: 40px;
-  margin-bottom: 35px; }
+.resume_item .year {
+  background-color: #FF6347;
+  color: #fff; }
 
-.resume_item {
-  margin-bottom: 30px; }
-  .resume_item .year {
-    background-color: #FF6347;
-    color: #fff; }
-  .resume_item .resume_description {
-    letter-spacing: 1px; }
+.resume_item .resume_description {
+  letter-spacing: 1px; }
 
 .s_portfolio li {
   color: #888;

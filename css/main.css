@@ -129,11 +129,7 @@ svg {
   background: white;
   border: none;
   border-radius: 4px 4px 4px 4px;
-  -webkit-transition: top 0.2s, -webkit-transform 0.5s;
-  transition: top 0.2s, -webkit-transform 0.5s;
-  -o-transition: transform 0.5s, top 0.2s;
   transition: transform 0.5s, top 0.2s;
-  transition: transform 0.5s, top 0.2s, -webkit-transform 0.5s;
   display: block; }
 
 svg path {
@@ -147,13 +143,7 @@ svg path {
   background: white;
   border: none;
   border-radius: 4px 4px 4px 4px;
-  -webkit-transition: top 0.2s, -webkit-transform 0.5s;
-  transition: top 0.2s, -webkit-transform 0.5s;
-  -o-transition: transform 0.5s, top 0.2s;
   transition: transform 0.5s, top 0.2s;
-  transition: transform 0.5s, top 0.2s, -webkit-transform 0.5s;
-  -webkit-transition-delay: 0.2s, 0s;
-  -o-transition-delay: 0.2s, 0s;
   transition-delay: 0.2s, 0s; }
 
 .sw-footer {
@@ -164,30 +154,20 @@ svg path {
   background: white;
   border: none;
   border-radius: 4px 4px 4px 4px;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
-  -webkit-transition-delay: 0.1s;
-  -o-transition-delay: 0.1s;
   transition-delay: 0.1s; }
 
 .sandwich.active .sw-topper {
   top: 9px;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
 .sandwich.active .sw-bottom {
   top: 6px;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
 
 .sandwich.active .sw-footer {
   opacity: 0;
   top: 0;
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
   transform: rotate(180deg); }
 
 .top_mnu {
@@ -243,7 +223,6 @@ svg path {
         height: 100%;
         -webkit-transition: all 0.5s ease;
         -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
         transition: all 0.5s ease; }
         .top_mnu ul a span:hover {
           background-color: rgba(255, 255, 255, 0.08); }
@@ -266,7 +245,6 @@ svg path {
     display: inline-block;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
     transition: all 1s ease; }
     .top_wrapper .top_text p {
       margin: 0;
@@ -405,8 +383,6 @@ svg path {
     text-align: center;
     padding-top: 15%;
     opacity: 0;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
     transition: all .5s; }
   .portfolio_item:hover .port_item_cont {
     opacity: 1;
@@ -419,3 +395,65 @@ svg path {
     border: #fff 1px solid;
     padding: 2px 10px;
     display: inline-block; }
+
+.modal-box-content {
+  position: relative; }
+
+.contact_box {
+  margin-bottom: 30px; }
+  .contact_box h3 {
+    text-align: left;
+    color: #000;
+    margin-bottom: 0px;
+    font-size: 14px; }
+  .contact_box .contacts_icon {
+    font-size: 30px; }
+  .contact_box p {
+    margin-top: 5px; }
+
+.main_form button {
+  border: none;
+  color: #fff;
+  line-height: 40px;
+  padding: 0 25px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 10px;
+  float: right; }
+
+.form-group {
+  display: block;
+  margin-bottom: 20px; }
+  .form-group .color_element {
+    font-weight: 700;
+    font-size: 18px; }
+  .form-group .text-danger {
+    font-size: 11px;
+    margin-top: 5px;
+    display: block; }
+    .form-group .text-danger ul,
+    .form-group .text-danger li {
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+  .form-group input,
+  .form-group textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    line-height: 40px;
+    text-indent: 12px;
+    font-size: 12px;
+    background-color: transparent; }
+
+.main_footer {
+  padding: 50px 0;
+  font-size: 13px;
+  font-weight: 300; }
+  .main_footer .social_wrap {
+    float: right;
+    line-height: 0; }
+    .main_footer .social_wrap ul {
+      margin: 0; }
